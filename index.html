@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://db.onlinewebfonts.com/c/fd1ad3a0f95210975d2f5607501020b5?family=Norse" rel="stylesheet" />
+</head>
+<body>
+  <div class="main">
+    <div class="sidebar">
+      <div class="logo-container">
+        <img src="https://cdn.statically.io/gh/TheOdinProject/curriculum/5f37d43908ef92499e95a9b90fc3cc291a95014c/html_css/project-sign-up-form/odin-lined.png" alt="Odin Logo" class="logo" />
+        <span class="logo-text">ODIN</span>
+      </div>
+      <p class="photo-credit">Photo by Halie West on Unsplash</p>
+    </div>
+
+    <div class="form-section">
+      <div class="info">
+        <p><strong>This is not a real online service!</strong> You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+        <p><strong>You <em>know</em> you want to.</strong></p>
+      </div>
+
+      <form id="signup-form">
+        <fieldset>
+          <legend>Let’s do this!</legend>
+          <div class="form-row">
+            <div class="input-group">
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" id="first-name" name="first-name" required />
+            </div>
+            <div class="input-group">
+              <label for="last-name">LAST NAME</label>
+              <input type="text" id="last-name" name="last-name" required />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-group">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" placeholder="example@email.com" required />
+            </div>
+            <div class="input-group">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone" name="phone" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-group">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password" placeholder="Password must be at least 8 characters." required />
+            </div>
+            <div class="input-group">
+              <label for="confirm-password">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-password" name="confirm-password" required />
+            </div>
+          </div>
+        </fieldset>
+        <div class="form-footer">
+          <button type="submit">Create Account</button>
+          <p>Already have an account? <a href="#">Log in</a></p>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

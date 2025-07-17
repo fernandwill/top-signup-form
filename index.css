@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center center/cover no-repeat;
+  width: 40%;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  justify-content: center;
+  padding: 1.5rem 0;
+  margin-top: 8rem;
+}
+
+.logo {
+  height: 80px;
+  margin-right: 15px;
+}
+
+.logo-text {
+  font-family: "Norse", sans-serif;
+  font-size: 4rem;
+}
+
+.photo-credit {
+  font-size: 0.8rem;
+  padding: 1rem;
+  align-self: flex-end;
+}
+
+.form-section {
+  background: #f9fafb;
+  padding: 3rem;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+legend {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+label {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  margin-bottom: 0.3rem;
+  color: #444;
+}
+
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 2px rgba(79, 70, 229, 0.2);
+}
+
+input.error {
+  border-color: red;
+}
+
+.form-footer {
+  margin-top: 2rem;
+}
+
+button {
+  background-color: #596D48;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background-color: #4e5f3d;
+}
+
+.form-footer p {
+  margin-top: 1rem;
+}
+
+.form-footer a {
+  color: #596D48;
+  text-decoration: none;
+  font-weight: bold;
+}
